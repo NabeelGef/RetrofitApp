@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".categories_fragment">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:id="@+id/text1"
+        android:layout_height="200dp" />
+    <TextView
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:id="@+id/text2" />
+     <Button
+         android:layout_width="50sp"
+         android:layout_height="50dp"
+         android:id="@+id/Click_Main"
+         android:background="@drawable/ic_baseline_arrow_forward_24"/>
+
+ </LinearLayout>
+</FrameLayout>

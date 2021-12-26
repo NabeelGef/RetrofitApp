@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_up">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <!--<ImageView
+        android:layout_width="350sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/image_view"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/change"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_red_dark"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click to add Image"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="center" />
+-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:drawableEnd="@drawable/ic_baseline_emoji_emotions_24"
+        android:drawableRight="@drawable/ic_baseline_emoji_emotions_24"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp"
+        android:id="@+id/name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:drawableEnd="@drawable/ic_baseline_security_24"
+        android:drawableRight="@drawable/ic_baseline_security_24"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:drawableEnd="@drawable/ic_baseline_email_24"
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp"
+        android:id="@+id/email"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numbertel"
+        android:drawableEnd="@drawable/ic_baseline_call_24"
+        android:drawableRight="@drawable/ic_baseline_call_24"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp"
+        android:id="@+id/numberTel"
+        android:layout_marginBottom="50sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="@string/sign_up"
+        android:id="@+id/sign_up"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/prog"/>
+</LinearLayout>
+</ScrollView>

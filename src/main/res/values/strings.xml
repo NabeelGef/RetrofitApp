@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RetrofitApp</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">ZslbskkjbSgDAJhPIBGEeoxg7pmTZexktJoDJDMt</string>
+    <string name="back4app_client_key">Hz5UUYdp8c7XLHIZSkcaqENaotrqofxd6Lvq9XlZ</string>
+    <string name="name">name :</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="password">password :</string>
+    <string name="login">login</string>
+    <string name="email">email :</string>
+    <string name="sign_up">sign_up</string>
+    <string name="reservation_system">Reservation_system</string>
+    <string name="numbertel">numberTel :</string>
+    <string name="employee_lists">Employee Lists</string>
+    <string name="lists_employee">Lists Employee</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
